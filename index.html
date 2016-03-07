@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Das erste HTML5 Spiel</title>
+	</head>
+	<body>
+		<div id='game_object' style='position: relative'>
+			<canvas width="800px" height="600px" id='background_canvas' style='background: gray; position: absolute; top: 0px; left: 0px;'></canvas>
+			<canvas width="800px" height="600px" id='main_canvas' style=' position: absolute; top: 0px; left: 0px;' onmousemove='mouse("move", event)' onclick='mouse("click", event)'>Leider kann dieser Browser das Spiel nicht ausfhren!</canvas>
+		</div>
+		<script type="text/javascript" src='game.js'></script>
+	</body>
+</html>
